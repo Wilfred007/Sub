@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-08-07T09:48:52.845Z",
+  "network": "liskSepolia",
+  "chainId": 4202,
+  "deployer": "0x2b43B0C5BA5e358D7D38B4657E503a26c1554dAA",
+  "deployerBalance": "0.039729107261420852",
+  "contracts": {
+    "streamlinedSubscription": "0xeE2b82D56f7824919433008f5D3116aC42d2874C",
+    "simpleMockUSDT": "0x87B549E2C302843B19e6B12bE96bC5654d6C3CDA"
+  },
+  "plans": [
+    {
+      "id": 0,
+      "name": "Basic",
+      "ethPrice": "0.001",
+      "usdtPrice": "1",
+      "duration": 30
+    },
+    {
+      "id": 1,
+      "name": "Premium",
+      "ethPrice": "0.005",
+      "usdtPrice": "5",
+      "duration": 30
+    },
+    {
+      "id": 2,
+      "name": "Enterprise",
+      "ethPrice": "0.01",
+      "usdtPrice": "10",
+      "duration": 30
+    }
+  ],
+  "contractType": "StreamlinedSubscription with SimpleMockUSDT"
+}
